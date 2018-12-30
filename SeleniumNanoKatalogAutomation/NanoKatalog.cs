@@ -190,7 +190,7 @@ namespace SeleniumNanoKatalogAutomation
 
             LoginPassword = Driver4Chrome.FindElement(By.Id("pass"));
             LoginPassword.Clear();
-            LoginPassword.SendKeys("PCWizard");
+            LoginPassword.SendKeys("XXXXXXXX");
 
             LoginRememberMe = Driver4Chrome.FindElement(By.ClassName("checkbox"));
             LoginRememberMe.Click();
